@@ -1,0 +1,71 @@
+
+.copy_you_dont_have_rights_footer
+{
+    position: fixed;
+    color: white;
+    bottom: 15px;
+    width: 99%;
+    background-color: rgb(0, 0, 0);
+    line-height: 3;
+    text-align:center;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#title
+{
+    position: fixed;
+    color: rgb(212, 255, 242);
+    width: 99%;
+    background-color: rgb(0, 102, 255);
+    line-height: 3;
+    text-align:center;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#myCanvas
+{
+    position: center;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px grey;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#colorpicker
+{
+    position: sticky;
+    bottom: 600px;
+    border-radius: 10px;
+    left: 1500px;
+}
+
+#blendValue
+{
+    position: sticky;
+    bottom: 550px;
+    border-radius: 10px;
+    left: 1500px;
+}
+
+#change_color
+{
+    position: sticky;
+    bottom: 450px;
+    border-radius: 10px;
+    left: 1535px;
+}
+
+#sizechoose
+{
+    position: sticky;
+    bottom: 500px;
+    border-radius: 10px;
+    left: 1500px;
+}
+
+#olo
+{
+    position: fixed;
+    left: 910px;
+}
