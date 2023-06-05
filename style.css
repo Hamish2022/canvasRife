@@ -66,6 +66,16 @@
 
 #olo
 {
-    position: fixed;
-    left: 910px;
+    position: absolute;
+    left: 850px;
+}
+#solo
+{
+    position: absolute;
+    left: 600px;
+}
+#sol
+{
+    position: absolute;
+    left: 1100px;
 }
