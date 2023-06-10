@@ -34,32 +34,32 @@
 
 #colorpicker
 {
-    position: sticky;
-    bottom: 600px;
+    position: absolute;
+    bottom: 400px;
     border-radius: 10px;
     left: 1500px;
 }
 
 #blendValue
 {
-    position: sticky;
-    bottom: 550px;
+    position: absolute;
+    bottom: 350px;
     border-radius: 10px;
     left: 1500px;
 }
 
 #change_color
 {
-    position: sticky;
-    bottom: 450px;
+    position: absolute;
+    bottom: 250px;
     border-radius: 10px;
     left: 1535px;
 }
 
 #sizechoose
 {
-    position: sticky;
-    bottom: 500px;
+    position: absolute;
+    bottom: 300px;
     border-radius: 10px;
     left: 1500px;
 }
