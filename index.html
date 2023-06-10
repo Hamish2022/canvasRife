@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
-  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-    <title>canvasRife</title>
+    <title>CanvasRife</title>
     <link href="style.css" rel="stylesheet">
+    <style>
+        /* CSS styles specific to this responsive layout */
+        @media (max-width: 768px) {
+            #myCanvas {
+                width: 100%;
+                max-width: 500px;
+                height: auto;
+            }
+
+            #title {
+                font-size: 24px;
+            }
+
+            .copy_you_dont_have_rights_footer {
+                font-size: 12px;
+            }
+
+            #colorpicker,
+            #blendValue,
+            #change_color,
+            #sizechoose {
+                position: relative;
+                margin: 5px auto;
+                display: block;
+            }
+
+            #olo,
+            #solo,
+            #sol {
+                position: relative;
+                margin: 5px auto;
+                display: block;
+            }
+        }
+    </style>
 </head>
 <body>
     <center>
@@ -19,17 +50,20 @@
         <br><br><br><br><br><br><br><br><br><br>
         <canvas id="myCanvas" width="800" height="600"></canvas>
         <br><br>
-        <button class="btn btn-info" id="olo" onclick="clear()">clear canvas</button>
-        <button class="btn btn-info" id="solo" onclick="save()">download <span>&#x2193;</span></button>
-        <button class="btn btn-info" id="sol" onclick="erase()">eraser (note to change back to pen click change setting on the side)</button>
-        <input id="colorpicker" type="text" placeholder="type color here">
-        <input id="sizechoose" type="text" placeholder="type pen size here">
+        <button class="btn btn-info" id="olo" onclick="clearCanvas()">Clear Canvas</button>
+        <button class="btn btn-info" id="solo" onclick="saveCanvas()">Download <span>&#x2193;</span></button>
+        <button class="btn btn-info" id="sol" onclick="erase()">Eraser (Note: To change back to pen, click 'Change Settings' on the side)</button>
+        <input id="colorpicker" type="text" placeholder="Type color here">
+        <input id="sizechoose" type="text" placeholder="Type pen size here">
         <input id="blendValue" type="text" value="1">
-        <button class="btn btn-info" id="change_color" onclick="setColor()">change settings</button>        
+        <button class="btn btn-info" id="change_color" onclick="setColor()">Change Settings</button>
         <div class="copy_you_dont_have_rights_footer">
             Developed by - Hamish Bajaj
         </div>
     </center>
     <script src="main.js"></script>
+    <script>
+        // JavaScript code remains the same
+    </script>
 </body>
 </html>
