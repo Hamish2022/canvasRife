@@ -91,4 +91,66 @@ function erase()
   color = "white"
   size = 5
 }
+
+function PC()
+{
+  // Get a reference to the element
+  var element = document.getElementById("yes");
+
+  // Hide the element by setting the display property to "none"
+  element.style.display = "none"
+
+  // Get a reference to the element
+  var element2 = document.getElementById("no");
+
+  // Hide the element by setting the display property to "none"
+  element2.style.display = "none"
+
+  // Get a reference to the element
+  var element3 = document.getElementById("note");
+
+  // Hide the element by setting the display property to "none"
+  element3.style.display = "none"
+}
+
+function computer()
+{
+  // Get a reference to the element
+  var element = document.getElementById("yes");
+
+  // Hide the element by setting the display property to "none"
+  element.remove()
+
+  // Get a reference to the element
+  var element2 = document.getElementById("no");
+
+  // Hide the element by setting the display property to "none"
+  element2.remove()
+
+  // Get a reference to the element
+  var element3 = document.getElementById("note");
+
+  // Hide the element by setting the display property to "none"
+  element3.remove()
+
+  document.getElementById("colorpicker").style.left = "1200px";
+  document.getElementById("colorpicker").style.bottom = "300px";
+
+  document.getElementById("sizechoose").style.left = "1200px";
+  document.getElementById("sizechoose").style.bottom = "250px";
+
+  document.getElementById("change_color").style.left = "1235px";
+  document.getElementById("change_color").style.bottom = "150px";
+
+  document.getElementById("blendValue").style.left = "1200px";
+  document.getElementById("blendValue").style.bottom = "200px";
+
+  document.getElementById("olo").style.bottom = "100px";
+
+  document.getElementById("sol").style.bottom = "100px";
+
+  document.getElementById("solo").style.bottom = "100px";
+
+  document.getElementById("myCanvas").style.bottom = "165px";
+}
     
