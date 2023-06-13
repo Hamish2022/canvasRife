@@ -3,7 +3,7 @@
 {
     position: fixed;
     color: white;
-    bottom: 15px;
+    bottom: 5px;
     width: 99%;
     background-color: rgb(0, 0, 0);
     line-height: 3;
@@ -24,12 +24,14 @@
 
 #myCanvas
 {
-    position: center;
+    position: absolute;
     background-color: whitesmoke;
     box-shadow: 10px 10px 10px grey;
     border-width: 10px;
     border-color: black;
     border-radius: 10px;
+    bottom: 125px;
+    left: 500px;
 }
 
 #colorpicker
@@ -67,15 +69,48 @@
 #olo
 {
     position: absolute;
-    left: 850px;
+    left: 750px;
+    bottom: 60px;
 }
 #solo
 {
     position: absolute;
-    left: 600px;
+    left: 500px;
+    bottom: 60px;
 }
 #sol
 {
     position: absolute;
-    left: 1100px;
+    left: 1000px;
+    bottom: 60px;
+}
+
+#yes
+{
+    position: absolute;
+    top: 400px;
+    margin: 10px; /* Adds margin around the element */
+    padding: 5px; /* Adds padding inside the element */
+    line-height: 1.5; /* Adjusts the line height */
+    left: 225px
+}
+
+#no
+{
+    position: absolute;
+    top: 400px;
+    margin: 10px; /* Adds margin around the element */
+    padding: 5px; /* Adds padding inside the element */
+    line-height: 1.5; /* Adjusts the line height */
+    left: 175px
+}
+
+#note
+{
+    position: absolute;
+    top: 300px;
+    margin: 10px; /* Adds margin around the element */
+    padding: 5px; /* Adds padding inside the element */
+    line-height: 1.5; /* Adjusts the line height */
+    left: 25px
 }
